@@ -1,0 +1,24 @@
+{
+	"name": "litdress/theme-a",
+	"authors": [
+		{
+			"name": "cbl",
+			"email": "lennart.carbe@gmail.com"
+		}
+	],
+	"require": {
+		"aw-studio/theme-installer": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"ThemeA\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"ThemeA\\ThemeAServiceProvider"
+			]
+		}
+	}
+}
