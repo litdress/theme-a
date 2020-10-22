@@ -1,1 +1,1 @@
-# theme-a
+# Beispiel Theme 1
